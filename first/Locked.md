@@ -328,7 +328,7 @@ Given word1 = **"makes"**, word2 = **"coding"**, return 1.
 
 You may assume that word1 does not equal to word2, and word1 and word2 are both in the list.
 ###思路：
-用map<string, vector<int>>记录每个单词出现的各个位置，两个指针遍历存放两个单词位置的vector。交替进行。
+用map < string, vector < int > >记录每个单词出现的各个位置，两个指针遍历存放两个单词位置的vector。交替进行。
 ###代码：
 
 ```
@@ -384,7 +384,7 @@ Given word1 = **"makes"**, word2 = **"makes"**, return 3.
 
 You may assume word1 and word2 are both in the list.
 ###思路：
-思路同题I，只是加了如果两个相等的情况，加了一个trik，使写法简单。
+思路同题I，只是加了如果两个相等的情况，加了一个trick，使写法简单。
 ###代码：
 
 ```
